@@ -1,0 +1,96 @@
+section.menu {
+  display: grid;
+  grid-template-areas: "cafeteria desayunos desayunos pasteleria" "milkshakes sanguches ensaladas pasteleria";
+  grid-template-rows: 400px 400px;
+  grid-template-columns: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  padding: 100px;
+  p {
+    color: $h3_color;
+    font-family: $h3_font;
+    font-size: $h3_font;
+    filter: $h3_shadow;
+    font-size: $h3_size;
+  }
+}
+section .menu__cafeteria {
+  grid-area: cafeteria;
+  background-image: url(../images/cafeteria.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &:hover {
+    transform: rotateX(30deg);
+  }
+}
+section .menu__desayunos {
+  grid-area: desayunos;
+  background-image: url(../images/desayunos.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &:hover {
+    transform: rotateY(30deg);
+  }
+}
+section .menu__pasteleria {
+  grid-area: pasteleria;
+  background-image: url(../images/pasteleria.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    transform: rotateX(30deg);
+  }
+}
+section .menu__sanguches {
+  grid-area: sanguches;
+  background-image: url(../images/sanguches.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    transform: rotateY(30deg);
+  }
+}
+section .menu__milkshakes {
+  grid-area: milkshakes;
+  background-image: url(../images/milkashakes.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    transform: rotateX(30deg);
+  }
+}
+section.menu__ensaladas {
+  grid-area: ensaladas;
+  background-image: url(../images/ensaladas.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    transform: rotateX(30deg);
+  }
+}

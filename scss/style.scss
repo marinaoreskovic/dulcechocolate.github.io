@@ -1,0 +1,110 @@
+// h1
+$h1_shadow: drop-shadow(0 0 2px #5c2600) drop-shadow(1px 2px 0 #5c2600)
+  drop-shadow(-1px 1px 0 #5c2600) drop-shadow(1px -1px 0 #5c2600);
+$h1_color: #aa5518;
+$h1_font: "Lobster", cursive;
+$h1_size: 10vw;
+//h2
+$h2_shadow: drop-shadow(0 0 1px rgb(61, 26, 0))
+  drop-shadow(1px 1px 0 rgb(61, 26, 0)) drop-shadow(-1px 1px 0 rgb(61, 26, 0))
+  drop-shadow(1px -1px 0 rgb(61, 26, 0));
+$h2_color: white;
+$h2_font: "Suez One", serif;
+$h2_size: 3vw;
+//h3
+$h3_shadow: drop-shadow(0 0 1px chocolate) drop-shadow(1px 1px 0 chocolate)
+  drop-shadow(-1px 1px 0 chocolate) drop-shadow(1px -1px 0 chocolate);
+$h3_color: #ffdbc1;
+$h3_font: "Suez One", serif;
+$h3_size: 3vw;
+
+@import "generales";
+@import "footer";
+@import "inicio";
+@import "nosotros";
+@import "menu";
+@import "contactanos";
+
+/* header {
+  width: 100%;
+  height: 50px;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  text-align: right;
+  background-color: #491b05;
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #491b05;
+  position: fixed;
+}
+
+nav li {
+  display: inline;
+  padding: 15px;
+  font-size: 20px;
+  list-style: none;
+}
+
+nav li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: #491b05;
+  padding: 13px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {
+    display: none;
+  }
+  .nav a {
+    float: right;
+    display: block;
+  }
+} */
+/* 
+table {
+  color: blue;
+  border: 3px solid black;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+.chocolatoso {
+  color: chocolate;
+  border: 3px solid black;
+}
+
+.coconut {
+  color: wheat;
+  border: 3px solid black;
+}
+
+.strawberry {
+  color: red;
+  border: 3px solid black;
+}
+
+th {
+  background-color: #491b05;
+  color: white;
+  padding: 20px;
+}
+
+tr,
+td {
+  border: 1px solid;
+  padding: 0;
+} */

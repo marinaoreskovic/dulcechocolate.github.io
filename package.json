@@ -1,0 +1,22 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinaoreskovic/Actividades-Coderhouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marinaoreskovic/Actividades-Coderhouse/issues"
+  },
+  "homepage": "https://github.com/marinaoreskovic/Actividades-Coderhouse#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  },
+  "description": ""
+}

@@ -1,0 +1,51 @@
+.portada {
+  background-image: url(../images/portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  text-align: center;
+  padding: 80px;
+  h1.portada_titulo {
+    font-family: $h1_font;
+    color: $h1_color;
+    filter: $h1_shadow;
+    font-size: $h1_size;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 2s;
+    animation-name: aparecer;
+  }
+
+  h2.portada_subtitulo {
+    font-family: $h2_font;
+    font-size: $h2_size;
+    color: $h2_color;
+    filter: $h2_shadow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 5s;
+    animation-name: aparecer;
+  }
+}
+
+.galeria {
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .carousel {
+    width: 1000px;
+    height: 800px;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
