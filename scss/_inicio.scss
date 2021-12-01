@@ -17,9 +17,9 @@
     animation-name: aparecer;
   }
 
-  h2.portada_subtitulo {
+  p.portada_subtitulo {
     font-family: $h2_font;
-    font-size: $h2_size;
+    font-size: 2.5vw;
     color: $h2_color;
     filter: $h2_shadow;
     display: flex;

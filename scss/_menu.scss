@@ -1,4 +1,13 @@
-section.menu {
+h2 {
+  color: $h2_color;
+  font-family: $h2_font;
+  filter: $h2_shadow;
+  font-size: $h2_size;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.menu {
   display: grid;
   grid-template-areas: "cafeteria desayunos desayunos pasteleria" "milkshakes sanguches ensaladas pasteleria";
   grid-template-rows: 400px 400px;
@@ -14,7 +23,7 @@ section.menu {
     font-size: $h3_size;
   }
 }
-section .menu__cafeteria {
+.menu__cafeteria {
   grid-area: cafeteria;
   background-image: url(../images/cafeteria.jpg);
   background-repeat: no-repeat;
@@ -68,7 +77,7 @@ section .menu__sanguches {
     transform: rotateY(30deg);
   }
 }
-section .menu__milkshakes {
+.menu__milkshakes {
   grid-area: milkshakes;
   background-image: url(../images/milkashakes.jpg);
   background-repeat: no-repeat;
@@ -81,7 +90,7 @@ section .menu__milkshakes {
     transform: rotateX(30deg);
   }
 }
-section.menu__ensaladas {
+.menu__ensaladas {
   grid-area: ensaladas;
   background-image: url(../images/ensaladas.jpg);
   background-repeat: no-repeat;

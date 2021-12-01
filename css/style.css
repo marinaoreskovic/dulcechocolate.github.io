@@ -57,9 +57,9 @@ footer a img:hover {
   animation-duration: 2s;
   animation-name: aparecer;
 }
-.portada h2.portada_subtitulo {
+.portada p.portada_subtitulo {
   font-family: "Suez One", serif;
-  font-size: 3vw;
+  font-size: 2.5vw;
   color: white;
   filter: drop-shadow(0 0 1px #3d1a00) drop-shadow(1px 1px 0 #3d1a00) drop-shadow(-1px 1px 0 #3d1a00) drop-shadow(1px -1px 0 #3d1a00);
   display: flex;
@@ -88,14 +88,71 @@ footer a img:hover {
     opacity: 1;
   }
 }
-#nosotros {
-  position: relative;
-  top: 100px;
-  width: 100%;
-  height: 100%;
+section.nosotros h2.nostros__titulo {
+  color: white;
+  font-family: "Suez One", serif;
+  filter: drop-shadow(0 0 1px #3d1a00) drop-shadow(1px 1px 0 #3d1a00) drop-shadow(-1px 1px 0 #3d1a00) drop-shadow(1px -1px 0 #3d1a00);
+  font-size: 6vw;
+  text-align: center;
+  padding: 50px;
+}
+section.nosotros section.nosotros__contenido {
+  display: grid;
+  grid-template-areas: "img1 p1" "p2 img2" "img3 p3";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  padding: 100px;
+}
+section.nosotros section.nosotros__contenido img.nosotros__imagen {
+  width: 40vw;
+  height: 30vw;
+}
+section.nosotros section.nosotros__contenido img.nosotros__imagen img#img1 {
+  grid-area: img1;
+}
+section.nosotros section.nosotros__contenido img.nosotros__imagen img#img2 {
+  grid-area: img2;
+}
+section.nosotros section.nosotros__contenido img.nosotros__imagen img#img3 {
+  grid-area: img3;
+}
+section.nosotros section.nosotros__contenido p#p1 {
+  grid-area: p1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+  font-size: 1.5vw;
+}
+section.nosotros section.nosotros__contenido p#p2 {
+  grid-area: p2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+  font-size: 1.5vw;
+}
+section.nosotros section.nosotros__contenido p#p3 {
+  grid-area: p3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+  font-size: 1.5vw;
 }
 
-section.menu {
+h2 {
+  color: white;
+  font-family: "Suez One", serif;
+  filter: drop-shadow(0 0 1px #3d1a00) drop-shadow(1px 1px 0 #3d1a00) drop-shadow(-1px 1px 0 #3d1a00) drop-shadow(1px -1px 0 #3d1a00);
+  font-size: 6vw;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.menu {
   display: grid;
   grid-template-areas: "cafeteria desayunos desayunos pasteleria" "milkshakes sanguches ensaladas pasteleria";
   grid-template-rows: 400px 400px;
@@ -104,7 +161,7 @@ section.menu {
   grid-row-gap: 15px;
   padding: 100px;
 }
-section.menu p {
+.menu p {
   color: #ffdbc1;
   font-family: "Suez One", serif;
   font-size: "Suez One", serif;
@@ -112,7 +169,7 @@ section.menu p {
   font-size: 3vw;
 }
 
-section .menu__cafeteria {
+.menu__cafeteria {
   grid-area: cafeteria;
   background-image: url(../images/cafeteria.jpg);
   background-repeat: no-repeat;
@@ -123,7 +180,7 @@ section .menu__cafeteria {
   align-items: center;
   position: relative;
 }
-section .menu__cafeteria:hover {
+.menu__cafeteria:hover {
   transform: rotateX(30deg);
 }
 
@@ -170,7 +227,7 @@ section .menu__sanguches:hover {
   transform: rotateY(30deg);
 }
 
-section .menu__milkshakes {
+.menu__milkshakes {
   grid-area: milkshakes;
   background-image: url(../images/milkashakes.jpg);
   background-repeat: no-repeat;
@@ -180,11 +237,11 @@ section .menu__milkshakes {
   justify-content: center;
   align-items: center;
 }
-section .menu__milkshakes:hover {
+.menu__milkshakes:hover {
   transform: rotateX(30deg);
 }
 
-section.menu__ensaladas {
+.menu__ensaladas {
   grid-area: ensaladas;
   background-image: url(../images/ensaladas.jpg);
   background-repeat: no-repeat;
@@ -194,7 +251,7 @@ section.menu__ensaladas {
   justify-content: center;
   align-items: center;
 }
-section.menu__ensaladas:hover {
+.menu__ensaladas:hover {
   transform: rotateX(30deg);
 }
 
@@ -207,7 +264,7 @@ h2.contactanos_titulo {
   font-family: "Suez One", serif;
   color: white;
   filter: drop-shadow(0 0 1px #3d1a00) drop-shadow(1px 1px 0 #3d1a00) drop-shadow(-1px 1px 0 #3d1a00) drop-shadow(1px -1px 0 #3d1a00);
-  font-size: "Suez One", serif;
+  font-size: 6vw;
   padding-top: 100px;
   text-align: center;
 }
